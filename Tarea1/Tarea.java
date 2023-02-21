@@ -7,7 +7,7 @@ public class Tarea{
         System.out.println("Ingrese los siguientes datos en este orden: Nombre Profesión País");
         Entrada=i.nextLine();
         String[] Separado=Entrada.trim().split(" ");
-        System.out.println("Nombre: "+Separado[0]+"\nProfesión: "+Separado[1]+"\nPaís: "+Separado[2]) ;
+        System.out.println("Nombre: "+Separado[0].toUpperCase()+"\nProfesión: "+Separado[1].toUpperCase()+"\nPaís: "+Separado[2].toUpperCase()) ;
     }
 }
 
